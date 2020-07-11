@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <social-links :social="social" />
+    </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="dist/vue-social-links.min.js"></script>
+    <script>
+        var app = new Vue({
+            el: "#app",
+            data: {
+                social: {
+                    youtube: 'test',
+                    instagram: 'test',
+                    github: 'test',
+                    twitter: 'test',
+                    linkedin: 'test',
+                    facebook: 'test',
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
