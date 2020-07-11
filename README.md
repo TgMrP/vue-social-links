@@ -1,6 +1,9 @@
 # vue-social-links
 
+### close
 ![](screenshot/1.png)
+
+### open
 ![](screenshot/2.png)
 
 ```
