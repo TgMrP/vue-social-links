@@ -5,6 +5,10 @@
   "author": {
     "name": "Ran Tayar"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/homeranil/vue-social-links"
+  },
   "main": "dist/vue-social-links.umd.js",
   "module": "dist/vue-social-links.esm.js",
   "unpkg": "dist/vue-social-links.min.js",
